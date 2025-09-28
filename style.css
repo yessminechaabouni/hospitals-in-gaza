@@ -1,0 +1,145 @@
+/* Style général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Titres */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+/* Formulaire */
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #342587;
+    border-radius: 5px;
+}
+
+/* Bouton */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Liste des hôpitaux */
+ul {
+    max-width: 700px;
+    margin: 20px auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3498db;
+}
+
+/* Carte */
+#map {
+    width: 90%;
+    max-width: 800px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #2980b9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hospital-list h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #2c3e50;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 30px;
+}
+
+
